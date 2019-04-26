@@ -8,7 +8,7 @@ LOCAL_MODULE := Signal
 
 LOCAL_CERTIFICATE := platform
 
-# Use OSMAND_APK_PATH if set. Need to export OSMAND_APK_PATH
+# Use SIGNAL_APK_PATH if set. Need to export SIGNAL_APK_PATH
 ifdef SIGNAL_APK_PATH
 LOCAL_SRC_FILES := $(SIGNAL_APK_PATH)
 else
